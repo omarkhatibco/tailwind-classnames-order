@@ -1,0 +1,45 @@
+{
+  "name": "prettier-plugin-tailwind-order",
+  "version": "0.0.1",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ava",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "eslint-config",
+    "tailwindcss",
+    "rules"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/eslint-plugin-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuejs/eslint-plugin-vue/issues"
+  },
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "@types/prettier": "^1.18.1",
+    "ava": "2.2.0",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2",
+    "rollup": "1.19.4",
+    "rollup-plugin-commonjs": "10.0.2",
+    "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-typescript": "1.0.1",
+    "ts-node": "^8.3.0",
+    "typescript": "3.5.3"
+  },
+  "dependencies": {
+    "prettier-plugin-tailwind": "^0.1.1"
+  }
+}
